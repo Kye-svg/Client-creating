@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "clicksclient",
+  "version": "${version}",
+  "name": "Click's Client",
+  "description": "Meteor Client addon: light ESP, anti-ESP, redstone, spawner, huge area and motion detection with flagged chunk markers above the surface.",
+  "authors": ["Click"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["dev.clicksclient.ClicksClient"]
+  },
+  "mixins": ["clicksclient.mixins.json"],
+  "custom": {
+    "meteor-client:color": "255,90,180"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "meteor-client": "*"
+  }
+}

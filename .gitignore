@@ -1,0 +1,7 @@
+build/
+.gradle/
+out/
+logic-out/
+run/
+.idea/
+*.iml
